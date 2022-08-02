@@ -56,7 +56,13 @@
             text-align: left;
             background-color: #202020 ;
             padding: 10px;
-            line-height: 350%;
+            line-height: 250%;
+        }
+
+        .blog_link{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         .websocial{
@@ -71,10 +77,35 @@
             margin: auto;
             max-width: 90%;
         }
+
+        @media screen and (min-width: 530px){
+            
+            .img-top{
+                max-width: 40%;
+            }
+            section{
+
+            max-width: 35%;
+            }
+
+            .blog{
+                width: 35%;
+                margin: auto;
+            }
+
+            .websocial{
+                width: 35%;
+                margin: auto;
+            }
+
+            footer{
+                width: 35%;
+            }
+        }
     </style>
 </head>
 <body>
-    <img class="img-top" src="https://docs.google.com/uc?id=1ti4lgsl8sAVfxZsdhUsKeleFMI76tqXd
+    <img class="img-top" src="https://docs.google.com/uc?id=1RFIenj_32mF4eIzvko-ODmAynlqAiQt_
     " alt="Foto de capa">
 
     <section>
@@ -94,12 +125,14 @@
     </section>
 
     <div class="blog">
-        <h3>Talvez você se interesse também:</h3>
-        <ul>
-            <li>5G o que preciso saber? <a href="https://www.instagram.com/p/CdgFLi9O9Ix/">Clique aqui</a></li>
-            <li>O segredo dos Telemarketing <a href="https://www.instagram.com/p/CfrEgK5uIEh/">Clique aqui</a></li>
-            <li>O que é Bossware? <a href="https://www.instagram.com/p/CeLunIBu46q/">Clique aqui</a></li>
-        </ul>
+        <div class="blog_link">
+            <h3><strong>Talvez você se interesse também:</strong></h3>
+            <ul>
+                <li>5G o que preciso saber? <a href="https://www.instagram.com/p/CdgFLi9O9Ix/">Clique aqui</a></li>
+                <li>O segredo dos Telemarketing <a href="https://www.instagram.com/p/CfrEgK5uIEh/">Clique aqui</a></li>
+                <li>O que é Bossware? <a href="https://www.instagram.com/p/CeLunIBu46q/">Clique aqui</a></li>
+            </ul>
+        </div>
     </div>
 
     <h2>Equipe HP Telecom</h2>
