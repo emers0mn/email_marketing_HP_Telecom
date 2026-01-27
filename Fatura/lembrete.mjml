@@ -1,0 +1,159 @@
+<mjml lang="pt-br">
+  <mj-head>
+    <mj-preview>Fatura próxima do vencimento</mj-preview>
+
+    <mj-attributes>
+      <mj-all font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, sans-serif" />
+      <mj-text color="#181C1F" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#121212">
+
+    <!-- CONTAINER FATURA -->
+    <mj-section background-color="#ffffff" padding="20px">
+      <mj-column>
+
+        <mj-image
+          src="https://docs.google.com/uc?id=1-W5X7K2OWlTHr7wnKg6YIYGWGPaFLJAb"
+          width="40px"
+          align="center"
+        />
+
+        <mj-text
+          background-color="#4AD62B"
+          color="#ffffff"
+          font-size="25px"
+          font-weight="700"
+          align="center"
+          padding="10px"
+        >
+          Fatura
+        </mj-text>
+
+        <mj-text align="center" padding="20px">
+          <h1><span style="color:#4AD62B">Olá</span>, #cliente_razao#!</h1>
+
+          <p>
+            Isso é só um lembrete para você não esquecer.<br><br>
+
+            A sua fatura <strong>#areceber_numero#</strong> está prestes a vencer
+            (<strong>#areceber_data_vencimento#</strong>).<br><br>
+
+            Valor: <strong>R$ #areceber_valor#</strong><br><br>
+
+            Código de barras:<br>
+            <strong>#linha_digitavel#</strong><br><br>
+
+            Caso o pagamento já tenha sido efetuado, desconsidere este lembrete.
+          </p>
+        </mj-text>
+
+        <mj-divider border-color="#4AD62B" border-width="5px" />
+
+        <mj-text align="center" font-size="15px" padding="20px">
+          Para mais informações, estamos à disposição pelos nossos canais de atendimento.
+        </mj-text>
+
+        <mj-button
+          background-color="#4AD62B"
+          color="#ffffff"
+          href="https://bit.ly/3Fx7syd"
+          font-weight="600"
+          border-radius="5px"
+        >
+          WhatsApp
+        </mj-button>
+
+        <mj-button
+          background-color="#4AD62B"
+          color="#ffffff"
+          href="tel:01128762641"
+          font-weight="600"
+          border-radius="5px"
+        >
+          Telefone
+        </mj-button>
+
+        <mj-text align="center" font-size="14px" padding-top="30px">
+          abraços,<br>
+          Equipe HAYP
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <!-- BLOG -->
+    <mj-section background-color="#202020" padding="10px">
+      <mj-column>
+
+        <mj-text color="#ffffff" align="center">
+          <h3>Talvez você se interesse também:</h3>
+
+          <ul style="list-style:none; padding:0">
+            <li>
+              Como criar uma senha?
+              <a href="https://www.instagram.com/p/CwS24jzge5_/?img_index=1" style="color:#4AD62B">
+                Clique aqui
+              </a>
+            </li>
+            <li>
+              Web3: e a revolução da internet
+              <a href="https://www.instagram.com/p/Cq5uyKXs-JF/?img_index=1" style="color:#4AD62B">
+                Clique aqui
+              </a>
+            </li>
+            <li>
+              Clube de desconto HAYP
+              <a href="https://www.instagram.com/p/CzT2QQ5uUfC/?img_index=1" style="color:#4AD62B">
+                Clique aqui
+              </a>
+            </li>
+          </ul>
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <!-- REDES SOCIAIS -->
+    <mj-section background-color="#4AD62B">
+      <mj-column>
+
+        <mj-social
+          icon-size="32px"
+          align="center"
+        >
+          <mj-social-element
+            name="instagram"
+            href="https://www.instagram.com/haypoficial/"
+          />
+          <mj-social-element
+            name="facebook"
+            href="https://www.facebook.com/HaypTelecom"
+          />
+          <mj-social-element
+            name="tiktok"
+            href="https://www.tiktok.com/@hp_telecom"
+          />
+        </mj-social>
+
+      </mj-column>
+    </mj-section>
+
+    <!-- FOOTER -->
+    <mj-section padding="20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="12px">
+          Enviado por
+          <a href="https://hayp.com.br/" style="color:#4AD62B">hayp.com.br</a><br><br>
+
+          HAYP Eireli – Provedor de internet<br>
+          CNPJ 28.973.552/0001-03<br>
+          Av. Manuel Alves Soares, 638 – Sala 3<br>
+          Parque Colonial – São Paulo – SP
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

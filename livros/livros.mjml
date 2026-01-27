@@ -1,0 +1,100 @@
+<mjml lang="pt-br">
+  <mj-head>
+    <mj-preview>Sugestão de livro</mj-preview>
+
+    <mj-attributes>
+      <mj-all font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, sans-serif" />
+      <mj-text color="#fdfdfd" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#ffffff">
+
+    <mj-section background-color="#000000" padding="20px">
+      <mj-column>
+
+        <mj-text align="center" padding="10px" font-size="25px" font-weight="700">
+          Sugestão de leitura
+        </mj-text>
+
+        <mj-text align="center" font-weight="500" font-size="14px">
+          <p>
+            Dicas de livros nos apps exclusivo para clientes HAYP, <span style="color:#4AD62B; font-weight: 700">incluido no seu plano</span>.
+          </p>
+
+        </mj-text>
+
+        <mj-image src="https://vendas.hayp.com.br/email/livros/pequeno.png" width="250px" align="center" alt="Pequeno principe" />
+
+        <mj-image src="https://vendas.hayp.com.br/email/livros/le_ai.png" width="141px" align="center" alt="Pequeno principe" />
+
+        <mj-button background-color="#4AD62B" color="#ffffff" href="https://hayp.com.br/suporte/apps/le_ai" font-size="16px" font-weight="700" border-radius="5px">
+          Veja como acessar
+        </mj-button>
+
+        <mj-image src="https://vendas.hayp.com.br/email/livros/pessoa.png" width="250px" align="center" alt="Pequeno principe" />
+
+        <mj-image src="https://vendas.hayp.com.br/email/livros/classica.png" width="270px" align="center" alt="Pequeno principe" />
+
+        <mj-button background-color="#4AD62B" color="#ffffff" href="https://hayp.com.br/suporte/apps/biblioteca" font-size="16px" font-weight="700" border-radius="5px">
+          Veja como acessar
+        </mj-button>
+
+
+        <mj-image src="https://vendas.hayp.com.br/email/livros/historinhas.png" width="250px" align="center" alt="Pequeno principe" />
+
+        <mj-image src="https://vendas.hayp.com.br/email/livros/his.png" width="217px" align="center" alt="Historinhaas" />
+
+        <mj-button background-color="#4AD62B" color="#ffffff" href="https://hayp.com.br/suporte/apps/historinhaas" font-size="16px" font-weight="700" border-radius="5px">
+          Veja como acessar
+        </mj-button>
+
+        <mj-divider border-color="#4AD62B" border-width="5px" width="100px" />
+
+
+        <mj-text align="center" font-size="15px" padding="20px">
+          Se você precisar de ajuda para acessar, estamos disponiveis para poder te ajudar no nosso WahtsApp.
+        </mj-text>
+
+        <mj-button background-color="#4AD62B" color="#ffffff" href="https://api.whatsapp.com/send?phone=551128762641" font-weight="700" border-radius="5px" font-size="14px">
+          WhatsApp
+        </mj-button>
+
+        <mj-text align="center" font-size="14px" padding="20px">
+          abraços,
+          <p style="color:#4AD62B; font-weight: 800; font-size: 20px; position: relative; top: -10px"> Equipe HAYP </p>
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <!-- REDES SOCIAIS -->
+    <mj-section background-color="#4AD62B" padding="0px">
+      <mj-column>
+
+        <mj-social icon-size="36px" align="center">
+          <mj-social-element name="instagram" href="https://www.instagram.com/haypoficial/" />
+
+          <mj-social-element name="facebook" href="https://www.facebook.com/HaypTelecom" />
+        </mj-social>
+
+      </mj-column>
+    </mj-section>
+
+    <!-- FOOTER -->
+    <mj-section padding="20px" background-color="#000000">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="15px">
+          Enviado por
+          <a href="https://hayp.com.br/" style="color:#4AD62B">hayp.com.br</a>
+        </mj-text>
+
+        <mj-text align="center" font-size="15px" line-height="18px"> HAYP Eireli – Provedor de internet<br>
+          CNPJ 28.973.552/0001-03<br>
+          Av. Manuel Alves Soares, 638 – Sala 3<br>
+          Parque Colonial – São Paulo – SP</mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
