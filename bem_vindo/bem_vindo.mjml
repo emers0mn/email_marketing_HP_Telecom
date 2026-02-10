@@ -1,0 +1,89 @@
+<mjml lang="pt-br">
+  <mj-head>
+    <mj-preview>Bem-vindo à HAYP 🚀</mj-preview>
+
+    <mj-attributes>
+      <mj-all font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, sans-serif" />
+      <mj-text color="#181C1F" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#121212">
+
+    <!-- CONTAINER -->
+    <mj-section background-color="#130f0f" padding="20px">
+      <mj-column>
+
+        <mj-text align="center" color="#fff" font-size="28px" font-weight="700" padding="20px 0">
+          Seja bem-vindo ao universo HAYP!
+        </mj-text>
+
+        <mj-text align="center" color="#4AD62B" font-size="16px" font-weight="700" padding="0">
+          Seu plano já está ativo
+        </mj-text>
+
+        <mj-divider padding="20px 10px" border-color="#4AD62B" width="100px" />
+
+        <mj-text align="center" color="#fff" font-size="18px" padding="0">
+          Olá <strong>{{NomeCliente}}</strong>,
+        </mj-text>
+
+        <mj-text align="center" color="#fff" font-size="15px" padding="10px 0 20px">
+          Além de internet, seu plano já inclui acesso a
+          <strong style="color:#4AD62B">apps exclusivos</strong> para leitura,
+          entretenimento e segurança.
+        </mj-text>
+
+        <mj-image src="https://vendas.hayp.com.br/email/avisosApps/img_1.png" width="300px" padding="0 0 10px" />
+
+        <mj-text color="#666666" font-size="9px" align="center" padding="0 10px 10px">
+          *Os valores de mercado individuais desses serviços são: Lê Aí (R$ 26,90), biblioteca dos classicos(R$ 26,90), Hub Vantagens (R$ 1,00) e Kaspersky(R$ 1,00). Tais valores são meramente informativos, não havendo alteração no valor total do plano contratado
+        </mj-text>
+
+        <mj-button background-color="#4AD62B" color="#ffffff" font-weight="700" border-radius="5px" font-size="16px" href="https://hayp.com.br/suporte/apps/le_ai+biblioteca">
+          Saiba como acessar seus apps
+        </mj-button>
+
+        <mj-text align="center" color="#fff" font-size="15px" padding="20px 0">
+          Precisa de ajuda? Nosso time está pronto para te atender.
+        </mj-text>
+
+        <mj-button background-color="#4AD62B" color="#ffffff" href="https://api.whatsapp.com/send?phone=551128762641&text=Oi!%20Sou%20novo%20cliente%20e%20preciso%20de%20ajuda." font-weight="700" border-radius="5px" font-size="16px">
+          Falar no WhatsApp
+        </mj-button>
+
+        <mj-text align="center" color="#fff" font-size="14px" padding="20px 0 0">
+          abraços,
+        </mj-text>
+
+        <mj-text align="center" color="#fff" font-weight="800" font-size="20px" padding="0">
+          Equipe HAYP
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <!-- REDES SOCIAIS -->
+    <mj-section background-color="#4AD62B">
+      <mj-column>
+        <mj-social icon-size="32px" align="center">
+          <mj-social-element name="instagram" href="https://www.instagram.com/haypoficial/" />
+          <mj-social-element name="facebook" href="https://www.facebook.com/HaypTelecom" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- FOOTER -->
+    <mj-section padding="20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="14px">
+          Enviado por
+          <a href="https://hayp.com.br/" style="color:#4AD62B">hayp.com.br</a><br><br>
+          HAYP Eireli – Provedor de internet<br>
+          CNPJ 28.973.552/0001-03
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

@@ -1,0 +1,111 @@
+<mjml lang="pt-br">
+  <mj-head>
+    <mj-preview>Comunicado de Instabilidade de Internet</mj-preview>
+
+    <mj-attributes>
+      <mj-all font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, sans-serif" />
+      <mj-text color="#181C1F" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#121212">
+
+    <!-- LOGO + TÍTULO -->
+    <mj-section padding="0px" background-color="#ffffff">
+      <mj-column padding="0px">
+
+        <mj-image
+          src="https://hayp.com.br/images/logotipo-primario-rgb-01.png"
+          width="100px"
+          align="center"
+          padding="0px"
+        />
+
+        <mj-text
+          background-color="#4AD62B"
+          color="#000000"
+          font-size="22px"
+          font-weight="700"
+          align="center"
+          padding="10px 0"
+        >
+          Comunicado Oficial
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <!-- CONTEÚDO -->
+    <mj-section background-color="#ffffff" padding="20px">
+      <mj-column>
+
+        <mj-text align="center" padding="0px">
+          <h1>
+            <span style="color:#4AD62B">Olá</span>, #cliente_razao#!
+          </h1>
+
+          <p>
+            Encaminhamos este comunicado para informar que, entre
+            <strong>19h do dia 04/02/2026</strong> e
+            <strong>01h do dia 05/02/2026</strong>, ocorreu uma
+            <strong>instabilidade em serviços globais operados pela Cloudflare</strong>,
+            empresa responsável por infraestrutura utilizada por diversas plataformas
+            e sistemas de trabalho remoto.
+            <br><br>
+
+            Durante esse período, a instabilidade externa pode ter causado
+            <strong>lentidão ou falhas de acesso</strong> a determinados serviços,
+            mesmo com a conexão de internet ativa.
+            <br><br>
+
+            Reforçamos que a <strong>rede da HAYP Telecom permaneceu funcionando normalmente</strong>
+            durante todo o período. O evento esteve relacionado a serviços de terceiros,
+            fora do controle do provedor.
+            <br><br>
+
+            A <strong>declaração oficial em PDF segue anexada</strong> a este e-mail,
+            podendo ser utilizada para fins de comprovação junto a empresas e setores
+            de Recursos Humanos.
+          </p>
+        </mj-text>
+
+        
+
+        <mj-text align="center" font-size="14px" padding="20px 0 0 0">
+          Atenciosamente,
+        </mj-text>
+
+        <mj-text align="center" color="#000" font-weight="800" font-size="20px" padding="0">
+          Equipe HAYP
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section background-color="#4AD62B">
+      <mj-column>
+        <mj-social icon-size="32px" align="center">
+          <mj-social-element name="instagram" href="https://www.instagram.com/haypoficial/" />
+          <mj-social-element name="facebook" href="https://www.facebook.com/HaypTelecom" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- FOOTER -->
+    <mj-section padding="20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="12px">
+          Enviado por
+          <a href="https://hayp.com.br/" style="color:#4AD62B">hayp.com.br</a><br><br>
+
+          HAYP Eireli – Provedor de Internet<br>
+          CNPJ 28.973.552/0001-03<br>
+          Av. Manuel Alves Soares, 638 – Sala 3<br>
+          Parque Colonial – São Paulo – SP
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

@@ -10,28 +10,23 @@
 
   <mj-body background-color="#121212">
 
-    <!-- CONTAINER FATURA -->
-    <mj-section background-color="#ffffff" padding="20px">
-      <mj-column>
+    <!-- base do logo -->
+    <mj-section padding="0px" background-color="#ffffff">
+      <mj-column padding="0px">
 
-        <mj-image
-          src="https://docs.google.com/uc?id=1-W5X7K2OWlTHr7wnKg6YIYGWGPaFLJAb"
-          width="40px"
-          align="center"
-        />
+        <mj-image src="https://hayp.com.br/images/logotipo-primario-rgb-01.png" width="100px" align="center" padding="0px" />
 
-        <mj-text
-          background-color="#4AD62B"
-          color="#ffffff"
-          font-size="25px"
-          font-weight="700"
-          align="center"
-          padding="10px"
-        >
+        <mj-text background-color="#4AD62B" color="#000000" font-size="25px" font-weight="700" align="center" padding="0px">
           Fatura
         </mj-text>
 
-        <mj-text align="center" padding="20px">
+      </mj-column>
+    </mj-section>
+
+    <!-- CONTAINER -->
+    <mj-section background-color="#ffffff" padding="20px">
+      <mj-column>
+        <mj-text align="center" padding="0px">
           <h1><span style="color:#4AD62B">Olá</span>, #cliente_razao#!</h1>
 
           <p>
@@ -55,61 +50,20 @@
           Para mais informações, estamos à disposição pelos nossos canais de atendimento.
         </mj-text>
 
-        <mj-button
-          background-color="#4AD62B"
-          color="#ffffff"
-          href="https://bit.ly/3Fx7syd"
-          font-weight="600"
-          border-radius="5px"
-        >
+        <mj-button background-color="#4AD62B" color="#ffffff" href="https://api.whatsapp.com/send?phone=551128762641&text=Preciso%20de%20ajuda%20com%20minha%20fatura." font-weight="600" border-radius="5px">
           WhatsApp
         </mj-button>
 
-        <mj-button
-          background-color="#4AD62B"
-          color="#ffffff"
-          href="tel:01128762641"
-          font-weight="600"
-          border-radius="5px"
-        >
+        <mj-button background-color="#4AD62B" color="#ffffff" href="tel:01128762641" font-weight="600" border-radius="5px">
           Telefone
         </mj-button>
 
-        <mj-text align="center" font-size="14px" padding-top="30px">
-          abraços,<br>
-          Equipe HAYP
+        <mj-text align="center" font-size="14px" padding="20px 0 0 0">
+          abraços,
         </mj-text>
 
-      </mj-column>
-    </mj-section>
-
-    <!-- BLOG -->
-    <mj-section background-color="#202020" padding="10px">
-      <mj-column>
-
-        <mj-text color="#ffffff" align="center">
-          <h3>Talvez você se interesse também:</h3>
-
-          <ul style="list-style:none; padding:0">
-            <li>
-              Como criar uma senha?
-              <a href="https://www.instagram.com/p/CwS24jzge5_/?img_index=1" style="color:#4AD62B">
-                Clique aqui
-              </a>
-            </li>
-            <li>
-              Web3: e a revolução da internet
-              <a href="https://www.instagram.com/p/Cq5uyKXs-JF/?img_index=1" style="color:#4AD62B">
-                Clique aqui
-              </a>
-            </li>
-            <li>
-              Clube de desconto HAYP
-              <a href="https://www.instagram.com/p/CzT2QQ5uUfC/?img_index=1" style="color:#4AD62B">
-                Clique aqui
-              </a>
-            </li>
-          </ul>
+        <mj-text align="center" color="#000" font-weight="800" font-size="20px" padding="0">
+          Equipe HAYP
         </mj-text>
 
       </mj-column>
@@ -119,22 +73,9 @@
     <mj-section background-color="#4AD62B">
       <mj-column>
 
-        <mj-social
-          icon-size="32px"
-          align="center"
-        >
-          <mj-social-element
-            name="instagram"
-            href="https://www.instagram.com/haypoficial/"
-          />
-          <mj-social-element
-            name="facebook"
-            href="https://www.facebook.com/HaypTelecom"
-          />
-          <mj-social-element
-            name="tiktok"
-            href="https://www.tiktok.com/@hp_telecom"
-          />
+        <mj-social icon-size="32px" align="center">
+          <mj-social-element name="instagram" href="https://www.instagram.com/haypoficial/" />
+          <mj-social-element name="facebook" href="https://www.facebook.com/HaypTelecom" />
         </mj-social>
 
       </mj-column>
